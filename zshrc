@@ -28,9 +28,9 @@ PROMPT='%F{green}%n%f %B%F{cyan}%~%f%b $(kube_context) %# '
 
 alias ..='cd ..'
 alias ...='cd ../..'
-alias ll='ls -alh'
-alias ltr='ls -ltra'
-alias lrt='ls -ltra'
+alias ll='ls -alhG'
+alias lrt='ls -ltraG'
+alias ltr='ls -ltraG'
 
 alias k='kubectl'
 alias tf='terraform'
